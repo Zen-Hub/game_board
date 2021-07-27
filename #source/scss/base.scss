@@ -24,9 +24,14 @@ html,body{
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    background-color: #111;
 }
 
 input,button,textarea{font-family: inherit;}
@@ -40,6 +45,10 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
 /*----------------------------------*/
 
-.wraper{
-    color: rgb(0, 172, 252);
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+max-width: 400px;
 }
